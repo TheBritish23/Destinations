@@ -12,3 +12,6 @@ contact.prototype.fullName = function() {
 // user interface logic
 $(document).ready(function() {
   $("form#contact").submit(function(event) {
+    event.preventDefault()
+  })
+ });
