@@ -13,5 +13,7 @@ contact.prototype.fullName = function() {
 $(document).ready(function() {
   $("form#contact").submit(function(event) {
     event.preventDefault()
+    var words = $('#words').val()
+    var result = contact(words)
   })
  });
