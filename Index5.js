@@ -1,5 +1,5 @@
-var testContact = new contact("Ada", "Lovelace", "503-555-1111");
+var testContact = new Contact(" ", " ", " ");
 
-contact {firstName: " ", lastName: " ", phoneNumber: " "}
+Contact {firstName: " ", lastName: " ", phoneNumber: " "}
 
-testContact.fullName();
+testContact.lastName;
