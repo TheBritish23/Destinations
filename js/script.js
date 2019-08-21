@@ -6,7 +6,17 @@ function AddressBook() {
 
 AddressBook.prototype.addContact = function(contact) {
   contact.id = this.assignId();   // <--- This line is new!
-  this.contacts.push(contact); 
+  this.contacts.push(contact);
+}
+
+AddressBook.prototype.findContact = function(id) {
+  for (var i=0; i< this.contacts.length; i++) {
+      if (this.contacts[i]) {     // <-- This line is new!
+       if (this.contacts[i].id == id) {
+        return this.contacts[i];
+      }
+    };
+  return false;
 }
 
 AddressBook.prototype.assignId = function() {
