@@ -15,10 +15,10 @@ AddressBook.prototype.assignId = function() {
 }
 
 AddressBook.prototype.findContact = function(id) {
-  for (var i=0; i< this.contacts.length; i++) {
-      if (this.contacts[i]) {     // <-- This line is new!
-       if (this.contacts[i].id == id) {
-        return this.contacts[i];
+  for (var x=0; x< this.contacts.length; x++) {
+      if (this.contacts[x]) {     // <-- This line is new!
+       if (this.contacts[x].id == id) {
+        return this.contacts[x];
        }
      }                         // <--This line is also new!
     };
@@ -26,10 +26,10 @@ AddressBook.prototype.findContact = function(id) {
 }
 
 AddressBook.prototype.deleteContact = function(id) {
-  for (var i=0; i< this.contacts.length; i++) {
-    if (this.contacts[i]) {
-      if (this.contacts[i].id == id) {
-        delete this.contacts[i];
+  for (var x=0; x< this.contacts.length; x++) {
+    if (this.contacts[x]) {
+      if (this.contacts[x].id == id) {
+        delete this.contacts[x];
         return true;
       }
     }
