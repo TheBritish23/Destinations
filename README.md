@@ -1,6 +1,6 @@
 # _Destinations_
 
-#### _{Brief description of application}, 8/22/2019_
+#### _Creating a website of places I have been to by putting Objects with multiple objects, 8/22/2019_
 
 #### By _**Soroush Azizi**_
 
@@ -17,7 +17,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_You have refresh the page so they don't mash together_
 
 ## Support and contact details
 
