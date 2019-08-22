@@ -10,6 +10,18 @@ var usa = { name: "United States of America", cities: [espanol, sun, sun2, sun3,
 var spain = { name: "Spain", cities: [espanol] };
 var qatar = { name: "Qatar", cities: [arab] };
 
+usa.cities.forEach(function(city) {
+  console.log("Let's go to " + city.name + "!");
+});
+
+spain.cities.forEach(function(city) {
+  console.log("Let's go to " + city.name + "!");
+});
+
+qatar.cities.forEach(function(city) {
+  console.log("Let's go to " + city.name + "!");
+});
+
 
 
 
