@@ -25,7 +25,7 @@ qatar.cities.forEach(function(city) {
   console.log("Let's go to " + city.name + "!");
 });
 
-var la = { name: "Los Angeles" };
+var la = { name: "Los Angeles" }; {
 usa.cities.push(la);
 
 var sr = { name: "San Ramon" };
@@ -33,6 +33,14 @@ usa.cities.push(sr);
 
 var sf = { name: "San Fransisco" };
 usa.cities.push(sf);
+
+var mb = { name: "Marbella" };
+spain.cities.push(mb);
+
+var dh = { name: "Doha" };
+qatar.cities.push(dh);
+ }
+
 
 
 
