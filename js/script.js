@@ -46,13 +46,11 @@ qatar.cities.push(dh);
 
 
 
-
-
-// user interface logic
+// user interface logic for Destination
 $(document).ready(function() {
   $("form#visit").submit(function(event) {
     event.preventDefault()
     var words = $('#words').val()
-    var result = cities(words)
+    var result = visit(words)
   })
  });
