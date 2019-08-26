@@ -32,10 +32,12 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 ### Specs
 
 _Spec 1: Each destination should be an object with multiple properties_
- _input: Usa_
- _output: LA, Hollywood, Burgers, family_
+ _input: usa_
+ _output: Los Angeles, San Ramon, San Fransisco_
 
- _Spec 2:
+ _Spec 2: Displays the properties when user clicks on the name_
+  _input: Qatar_
+  _output: Doha, Ho_
 
 MIT License
 

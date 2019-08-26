@@ -8,7 +8,7 @@ var visit = function(cities) {
     var beach = { name: "Orlando"};
   }
 
-    var usa = { name: "United States of America", cities: [sun, sun2, sun3, beach] }; {
+    var usa = { name: "United States of America", cities: ["sun", "sun2", "sun3", "beach"] }; {
     var spain = { name: "Spain", cities: ["espanol"] };
     var qatar = { name: "Qatar", cities: ["arab"] };
   }
