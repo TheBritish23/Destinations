@@ -27,19 +27,19 @@ qatar.cities.forEach(function(city) {
 });
 
 
-var la = { name: "Los Angeles" }; {
+var la = { name: "Los Angeles; Hollywood, Beach, Disneyland" }; {
 usa.cities.push(la);
 
-var sr = { name: "San Ramon" };
+var sr = { name: "San Ramon; Family, In n Out Burger, Home" };
 usa.cities.push(sr);
 
-var sf = { name: "San Fransisco" };
+var sf = { name: "San Fransisco; Pier, Alcatraz, Boardwalk" };
 usa.cities.push(sf);
 
-var mb = { name: "Marbella" };
+var mb = { name: "Marbella; Mediterranean, Valleys, A lot of rain for some reason, Mishaps to and from" };
 spain.cities.push(mb);
 
-var dh = { name: "Doha" };
+var dh = { name: "Doha; Desert, Persian Gulf, Hot" };
 qatar.cities.push(dh);
 
  }

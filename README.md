@@ -37,7 +37,7 @@ _Spec 1: Each destination should be an object with multiple properties_
 
  _Spec 2: Displays the properties when user clicks on the name_
   _input: Qatar_
-  _output: Doha, Ho_
+  _output: Doha, Hot, Persian Gulf, Desert_
 
 MIT License
 
