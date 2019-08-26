@@ -39,6 +39,18 @@ _Spec 1: Each destination should be an object with multiple properties_
   _input: Qatar_
   _output: Doha, Hot, Persian Gulf, Desert_
 
+ _Spec 3: The Place input only excepts names of countries_
+  _input: 3_
+  _output: ""_
+
+ _Spec 4: The Year input only excepts numbers_
+  _input: 2103_
+  _output: "2103"_
+
+ _Spec 5: The Landmark input does not except numbers_
+  _input: 4_
+  _output: ""_
+
 MIT License
 
 Copyright (c) 2019 Soroush Azizi
