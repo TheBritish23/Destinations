@@ -41,6 +41,10 @@ $(document).ready(function() {
   $("form#visit").submit(function(event) {
     event.preventDefault()
     var words = $('#words').val()
+    var words2 = $('#words2').val()
+    var words3 = $('#words3').val()
     var result = visit(words)
+    var result = visit(words2)
+    var result = visit(words3)
   })
  });
