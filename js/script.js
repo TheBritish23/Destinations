@@ -33,7 +33,7 @@ Place.prototype.getPlace = function() {
   return this.location + " " + this.landmark;
 }
 
-var place1 = newPlace ("Spain,"2017", "Marbella");
+var place1 = newPlace ("Spain,"2017","Marbella");
 
 
 // user interface logic for Destination

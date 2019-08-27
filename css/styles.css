@@ -20,3 +20,10 @@ h1 {
   font-weight: bold;
   color: green;
 }
+
+h2 {
+  font-family: 'Londrina Outline', cursive;
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
+}
