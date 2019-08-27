@@ -22,6 +22,12 @@ Passport.prototype.addPlace = function(place) {
   this.places.push(place);
 }
 
+var place = ['location', 'year', 'landmark'];
+
+Passport.forEach(function(place){
+  console.log(place);
+});
+
 // business logic for Place
 function Place (location, year, landmark){
   this.location = location;
