@@ -22,11 +22,12 @@ Passport.prototype.addPlace = function(place) {
   this.places.push(place);
 }
 
-var place = ['location', 'year', 'landmark'];
+Passport.prototype.listAll = function() {
+  this.places.forEach(function(place){
+    console.log(place.location)
+  }
+}
 
-Passport.forEach(function(place){
-  console.log(place);
-});
 
 // business logic for Place
 function Place (location, year, landmark){
@@ -39,7 +40,7 @@ Place.prototype.getPlace = function() {
   return this.location + " " + this.landmark;
 }
 
-var place1 = newPlace ("Spain,"2017","Marbella");
+var place1 = new Place ("Spain","2017","Marbella");
 
 
 // user interface logic for Destination
