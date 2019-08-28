@@ -52,6 +52,7 @@ $(document).ready(function() {
     myPassport.places.push(myPlace);
     myPassport.listAll();
     $(".place").click(function(){
+    $(this).children().toggle();
   })
   })
 
