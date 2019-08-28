@@ -18,26 +18,25 @@ function Passport() {
   this.places = []
 }
 
-Passport.prototype.addPlace = function(place) {
-  this.places.push(place);
-}
-
 Passport.prototype.listAll = function() {
+  $("#output").empty();
   this.places.forEach(function(place){
-    console.log(place.location)
-  }
+    $("#output").append(place.outPlace());
+  })
 }
 
 
 // business logic for Place
-function Place (location, year, landmark){
+function Place(location, year, landmark){
   this.location = location;
   this.year = year;
   this.landmark = landmark;
 }
 
 Place.prototype.getPlace = function() {
-  return this.location + " " + this.landmark;
+  return "<div class='card'><div class='place'>" + this.location +
+    "<p class='year'>" + this.year + "</p>" +
+    "<p class='landmark'>" + this.landmark + "</p></div>";
 }
 
 var place1 = new Place ("Spain","2017","Marbella");
