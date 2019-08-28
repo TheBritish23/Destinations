@@ -39,18 +39,15 @@ Place.prototype.getPlace = function() {
     "<p class='landmark'>" + this.landmark + "</p></div>";
 }
 
-var place1 = new Place ("Spain","2017","Marbella");
-
-
 // user interface logic for Destination
 $(document).ready(function() {
+  var myPassport = new Passport();
   $("form#visit").submit(function(event) {
     event.preventDefault()
-    var words = $('#words').val()
-    var words2 = $('#words2').val()
-    var words3 = $('#words3').val()
-    var result = visit(words)
-    var result = visit(words2)
-    var result = visit(words3)
+    var location = $('#location').val()
+    var year = $('#year').val()
+    var landmark = $('#landmark').val()
+    var myPlace = new Place(location, year, landmark);
+    $("visit").val("");
   })
  });
