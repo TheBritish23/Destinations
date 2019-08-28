@@ -21,7 +21,7 @@ function Passport() {
 Passport.prototype.listAll = function() {
   $("#output").empty();
   this.places.forEach(function(place){
-    $("#output").append(place.outPlace());
+    $("#output").append(place.getPlace());
   })
 }
 
@@ -49,5 +49,10 @@ $(document).ready(function() {
     var landmark = $('#landmark').val()
     var myPlace = new Place(location, year, landmark);
     $("visit").val("");
+    myPassport.places.push(myPlace);
+    myPassport.listAll();
+    $(".place").click(function(){
   })
- });
+  })
+
+});
